@@ -1420,3 +1420,17 @@ h6 {
 		max-width: 400px;
 	}
 }
+.content-chitiet{
+	overflow-wrap: break-word; /* Tự động xuống dòng nếu từ quá dài */
+    word-wrap: break-word;     /* Hỗ trợ trình duyệt cũ */
+    word-break: break-word;    /* Cắt từ nếu quá dài */
+    overflow-x: auto;          /* Hiển thị thanh cuộn nếu nội dung ngang vượt */
+    max-width: 100%;           /* Không vượt quá khung cha */
+    box-sizing: border-box;
+}
+.content-chitiet img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
